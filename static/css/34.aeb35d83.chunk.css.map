@@ -1,0 +1,1 @@
+{"version":3,"sources":["Login.css"],"names":[],"mappings":"AAAA,4BACI,wBAAyB,CACzB,UAAY,CACZ,eAAgB,CAChB,iBACJ","file":"34.aeb35d83.chunk.css","sourcesContent":["button.px-4.btn.btn-primary {\r\n    background-color: #023E5F;\r\n    color: white;\r\n    font-weight: 500;\r\n    text-align: center;\r\n}"]}

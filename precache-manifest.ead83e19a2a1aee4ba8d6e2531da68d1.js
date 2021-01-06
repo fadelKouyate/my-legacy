@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d70673dafec059997a11dd9f53b0b64b",
+    "revision": "03b451c328d104a43d5bba9928123834",
     "url": "/my-legacy/index.html"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-legacy/static/css/23.414fa8fd.chunk.css"
   },
   {
-    "revision": "e1e75e9b37886d0e4de9",
+    "revision": "79172d3eabc68fea37c8",
     "url": "/my-legacy/static/css/24.6eb82313.chunk.css"
   },
   {
@@ -44,7 +44,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-legacy/static/css/30.d84245a2.chunk.css"
   },
   {
-    "revision": "1d7b0c5c347cb14fb0c1",
+    "revision": "a6363cce5d79e9ece6ec",
     "url": "/my-legacy/static/css/31.5a21f5b9.chunk.css"
   },
   {
@@ -164,8 +164,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-legacy/static/js/23.400d042e.chunk.js"
   },
   {
-    "revision": "e1e75e9b37886d0e4de9",
-    "url": "/my-legacy/static/js/24.e2e497c6.chunk.js"
+    "revision": "79172d3eabc68fea37c8",
+    "url": "/my-legacy/static/js/24.a4a04d72.chunk.js"
   },
   {
     "revision": "5fc84244e67a183adb57",
@@ -196,8 +196,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-legacy/static/js/30.ca890a9d.chunk.js"
   },
   {
-    "revision": "1d7b0c5c347cb14fb0c1",
-    "url": "/my-legacy/static/js/31.8c05015c.chunk.js"
+    "revision": "a6363cce5d79e9ece6ec",
+    "url": "/my-legacy/static/js/31.b2c01395.chunk.js"
   },
   {
     "revision": "60209c5daca7c0cff948",
@@ -276,8 +276,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-legacy/static/js/main.c19db0cf.chunk.js"
   },
   {
-    "revision": "6b48e2ce2a60c9f9d27f",
-    "url": "/my-legacy/static/js/runtime-main.dbda9ac0.js"
+    "revision": "78e8886405138c1e072c",
+    "url": "/my-legacy/static/js/runtime-main.ed3ba04a.js"
   },
   {
     "revision": "4dabfb5aed6efc7ee80d6590f02269a2",

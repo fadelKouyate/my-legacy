@@ -1,26 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { HashRouter, Route, Switch } from 'react-router-dom';
+// import { renderRoutes } from 'react-router-config';
+import './App.scss';
+import {store, persistor}  from './store/configureStore'
+import { PersistGate } from 'redux-persist/lib/integration/react'
+import { Provider } from 'react-redux'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-		<h1> hello word Fadel </h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const loading = () => <div className="animated fadeIn pt-3 text-center">Loading...</div>;
+
+// Containers
+const DefaultLayout = React.lazy(() => import('./containers/DefaultLayout'));
+
+class App extends Component {
+
+  render() {
+    return (
+      <Provider store={store}>
+        <PersistGate persistor={persistor}>
+          <HashRouter>
+              <React.Suspense fallback={loading()}>
+                <Switch>
+                  <Route path="/" name="Home" render={props => <DefaultLayout {...props}/>} />
+                </Switch>
+              </React.Suspense>
+          </HashRouter>
+          </PersistGate>
+       </Provider>
+    );
+  }
 }
 
 export default App;

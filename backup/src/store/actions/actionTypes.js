@@ -1,0 +1,6 @@
+export const CONNECT = 'CONNECT'
+export const SET_TOKEN = 'SET_TOKEN'
+export const UPDATE_USER_INFO = 'UPDATE_USER_INFO'
+export const SAVE_USER = 'SAVE_USER'
+export const UPDATE_USER = 'UPDATE_USER'
+export const INIT_STATE = 'INIT_STATE'

@@ -1,0 +1,6 @@
+{
+    "name": "CreateTrip",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./CreateTrip.js"
+  }

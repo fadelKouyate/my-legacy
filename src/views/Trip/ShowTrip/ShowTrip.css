@@ -1,0 +1,92 @@
+
+.show-trip-body{
+    max-width: 600px;
+    cursor: pointer;
+    border-radius: 16px;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em; 
+    background-color: rgb(255, 255, 255);
+    transition: box-shadow 200ms ease-in 0s;
+    box-shadow: rgba(94, 92, 92, 0.16) 0px 1pt 4pt, rgba(94, 92, 92, 0.16) 0px 2pt 8pt;
+}
+
+.show-trip-body:hover{
+    background-color: azure;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1pt 4pt, rgba(0, 0, 0, 0.08) 0px 5pt 10pt;
+}
+
+.show-trip-hour{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    color: rgb(5, 71, 82);
+    padding: 0em 0.5em 0em 1em
+}
+
+.show-trip-amount{
+    color: coral;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    float: right;
+}
+
+.show-trip-content{
+    padding: 0.3em 0.5em 0.1em 1em;
+}
+
+.show-trip-title-icon{
+    width: 1.3em !important;
+    height: 2em !important;
+}
+
+.show-trip-driver{
+    border-right: 1 solid;
+}
+
+.show-trip-driver-avatar{
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.show-trip-driver-profil{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 500;
+    color: rgb(5, 71, 82);
+}
+
+.show-trip-description{
+    margin-left: 3px;
+    margin-bottom: 2em;
+}
+
+.show-trip-description-date{
+    font-size: var(--font-size-desktop);
+    --font-size-desktop: 20px;
+    color: rgb(5, 71, 82);
+    font-weight: 500;
+    line-height: 1.06;
+}
+.show-trip-description-from{
+    font-size: var(--font-size-desktop);
+    --font-size-desktop: 14px;
+    margin-top: 0.5em;
+}
+.show-trip-description-icon{
+    width: 4px;
+    height: calc(25% - 2px + 20px);
+    top: -1px;
+    background-color: coral;
+    margin-left: 2px;
+}
+.show-trip-description-to{
+    font-size: var(--font-size-desktop);
+    --font-size-desktop: 14px;
+}
+
+.show-trip-place{
+    float: right;
+    color: rgb(5, 71, 82);
+}

@@ -1,0 +1,59 @@
+.card-header{
+    font-size: 18px;
+    color: white;
+    background-color: #023E5F;
+}
+
+.profile-btn:hover{
+    background-position: right;
+}
+
+.center{
+    margin-top: 10px;
+}
+
+
+.title-upload {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 40px;
+    cursor: pointer;
+    position: relative;
+    left: 205px;
+    bottom: 29px;
+}
+.MuiAvatar-root.MuiAvatar-circle.MuiAvatar-colorDefault {
+    height: 250px;
+    width: 250px;
+}
+
+.MuiAvatar-root.MuiAvatar-circle {
+    width: 250px;
+    height: 250px;
+}
+
+
+.profile-picture .profile-btn{
+    width: auto;
+    height: 35px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    font-size: auto;
+    background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+    background-size: 200%;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 3em 0 3em;
+    transition: .5s;
+}

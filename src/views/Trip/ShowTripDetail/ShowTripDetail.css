@@ -1,0 +1,143 @@
+.trip-body{
+    margin-top: 3em !important;
+    max-width: 600px;
+    margin-bottom: 2em;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.trip-back{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.trip-date{
+    justify-content: center !important;
+}
+
+.show-trip-detail-header{
+    color: white;
+    max-width: 600px;
+    margin-bottom: 1em;
+    font-size: 16px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #023E5F;
+}
+
+.trip-from{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+    color: rgb(5, 71, 82);
+    font-family: 'FontAwesome';
+}
+
+.trip-space{
+    height: 8px;
+    border: none;
+    background-color: #8cc8de;
+}
+
+.trip-interval{
+    min-height: 3em;
+    width: 4px;
+    height: calc(25% - 2px + 4px);
+    top: -1px;
+    background-color: coral;
+    margin-left: 2px;
+}
+
+.trip-to{
+    color: rgb(5, 71, 82);
+    padding-left: 5px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: 'FontAwesome';
+    padding-bottom: 5px;
+}
+
+.trip-price{
+    color: rgb(112, 140, 145);
+    font-size: 16px;
+    line-height: 20px;
+    padding: 17px 0px 17px 5px;
+}
+
+.trip-price-value{
+    justify-content: right;
+    color: black;
+}
+
+.trip-driver{
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+
+.trip-driver-picture{
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.trip-driver-name{
+    color: rgb(112, 140, 145);
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.trip-driver-info{
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(32, 31, 31);
+}
+
+.trip-driver-description{
+    color: rgb(112, 140, 145);
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.trip-passenger{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.trip-passengers-title{
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    justify-content: center;
+    color: rgb(112, 140, 145);
+}
+
+.trip-passenger-picture{
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.trip-passenger-name{
+    color: rgb(112, 140, 145);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.trip-next{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    justify-content: center !important;
+}
+
+.show_trip_detail_forme_btn{
+    width: auto;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 3em 0 3em;
+}

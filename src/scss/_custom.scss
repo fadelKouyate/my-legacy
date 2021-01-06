@@ -1,0 +1,55 @@
+// Here you can add other styles
+//#162c50
+//#023E5F
+
+header.app-header.navbar {
+    background:  #023E5F;
+}
+
+header.app-header.navbar a{
+    color:  white;
+    font-weight: 400;
+}
+
+.sidebar {
+    background-color:#036297;
+}
+
+.sidebar .nav-link.active {
+    color: #fff;
+    background: #023E5F;
+}
+
+.card-header {
+    background-color: #023E5F;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.MuiPaper-root.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.MuiPaper-elevation0 {
+    background-color: #e4e5e6;
+}
+
+
+svg.MuiSvgIcon-root.MuiStepIcon-root.MuiStepIcon-active {
+    color: #023E5F;
+}
+
+svg.MuiSvgIcon-root.MuiStepIcon-root.MuiStepIcon-completed {
+    color: #023E5F;
+}
+
+button.btn.btn-primary.btn-block {
+    background-color: #023E5F;
+}
+
+button.sidebar-minimizer.mt-auto {
+    background-color: aqua;
+}
+
+a {
+    /* color: rgb(5, 71, 82); */
+    font-size: 14.2px;
+    line-height: 20px;
+}

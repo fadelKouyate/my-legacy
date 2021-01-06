@@ -1,0 +1,159 @@
+/* GESTION DU FORMULAIRE DE RECHERCHE DE TRAJET */
+.home-form {
+    background-color: #023E5F;
+    font-size: 20px;
+    color: #fff !important;
+    padding-bottom: 1.5em;
+    justify-content: center;
+}
+
+.home-form-title{
+    font-size: 1.53125rem;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    padding-top: 1.5em;
+    background-color: #023E5F;
+}
+
+.home-form-content{
+    box-sizing: border-box;
+    background-color: white;
+    width: auto;
+    border-radius: 16px;
+    height: 56px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    padding-left: 5px;
+}
+
+.home-form-col{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.home-form-from {
+    height: 3em;
+    width: 15em !important;
+    font-size: 16px;
+    align-items: center;
+    background-color: white !important;
+}
+
+.home-form-to{
+    height: 3em;
+    width: 15em !important;
+    font-size: 16px;
+    background-color: white !important;
+}
+
+.home-form-date {
+    height: 3em;
+    width: 10em !important;
+    font-size: 16px;
+    border-radius: 0px 0px 0px 0px!important;
+    background-color: white !important;
+    border: none;
+}
+
+.home-form-place{
+    align-items: center;
+    height: 3.45em;
+    width: auto !important;
+    background-color: white;
+    color: rgb(5, 71, 82);
+    font-size: 14px;
+    padding: 0px 16px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0px 0px 0px 0px!important;
+}
+
+.home-form-btn {
+    width: 88px;
+    height: 56px;
+    border-radius: 0px 16px 16px 0px;
+    background: #ED7423 !important;
+    padding: 0px;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border-color: rgba(0, 0, 0, 0.23);
+    border-width: 0px !important;
+    width: 15em !important;
+}
+
+.PrivateNotchedOutline-root-1 {
+    border-width: 0px !important;
+    border-radius: 16px !important;
+    width: 15em !important;
+}
+
+.MuiFormLabel-root {
+    color: darkgray !important;
+}
+
+
+/*GESTION DU FORMAT MOBILE*/
+@media(max-width:769px){
+    .home-form-title{
+        padding-left: 2em;
+        font-size: 14px;
+        justify-content: center;
+    }
+
+    .home-form{
+        padding-right: 24px !important;
+        padding-left: 24px !important;
+        justify-content: center !important;
+    }
+
+    .home-form-element{
+        width: 100% !important;
+    }
+
+    .home-form-content{
+        box-sizing: border-box;
+        background-color: white;
+        width: 100% !important;
+        border-radius: 16px;
+        height: auto;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 0px !important;
+        margin-left: 2px;
+    }
+
+    .home-form-from{
+        width: 100% !important;
+        border-radius: 16px 16px 0px 0px !important;
+        border-bottom: 1px solid rgb(237, 237, 237) !important;
+    }
+
+    .home-form-to {
+        width: 100% !important;
+        border-bottom: 1px solid rgb(237, 237, 237) !important;
+    }
+
+    .home-form-date {
+        width: 100% !important;
+        border: none;
+    }
+    
+    .home-form-place{
+        width: 100% !important;
+    }
+
+    .home-form-btn {
+        width: 100% !important;
+        -webkit-box-pack: center;
+        justify-content: center;
+        border-radius: 0px 0px 16px 16px !important;
+    }
+}

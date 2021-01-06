@@ -1,6 +1,0 @@
-{
-  "name": "Validate",
-  "version": "0.0.0",
-  "private": true,
-  "main": "./Validate.js"
-}

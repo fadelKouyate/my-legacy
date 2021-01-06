@@ -1,6 +1,0 @@
-{
-    "name": "PassengerTrips",
-    "version": "0.0.0",
-    "private": true,
-    "main": "./PassengerTrips.js"
-  }

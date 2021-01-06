@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03b451c328d104a43d5bba9928123834",
+    "revision": "46a283a9ac8e04bf67c4c71804360d6a",
     "url": "/my-legacy/index.html"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-legacy/static/css/23.414fa8fd.chunk.css"
   },
   {
-    "revision": "79172d3eabc68fea37c8",
+    "revision": "414b32f5f7dc78836908",
     "url": "/my-legacy/static/css/24.6eb82313.chunk.css"
   },
   {
@@ -164,8 +164,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-legacy/static/js/23.400d042e.chunk.js"
   },
   {
-    "revision": "79172d3eabc68fea37c8",
-    "url": "/my-legacy/static/js/24.a4a04d72.chunk.js"
+    "revision": "414b32f5f7dc78836908",
+    "url": "/my-legacy/static/js/24.61e923f8.chunk.js"
   },
   {
     "revision": "5fc84244e67a183adb57",
@@ -276,8 +276,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-legacy/static/js/main.c19db0cf.chunk.js"
   },
   {
-    "revision": "78e8886405138c1e072c",
-    "url": "/my-legacy/static/js/runtime-main.ed3ba04a.js"
+    "revision": "e22f7a524fed27684c7e",
+    "url": "/my-legacy/static/js/runtime-main.a02665d5.js"
   },
   {
     "revision": "4dabfb5aed6efc7ee80d6590f02269a2",
